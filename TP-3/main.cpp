@@ -15,6 +15,6 @@ int main()
     cin >> h;
     c = {r, h};
     cout << "Luas alas : " << base(c) << endl;
-    cout << "Volume kerucut :" << volume(c) << endl;
+    cout << "Volume kerucut : " << volume(c) << endl;
     return 0;
 }
