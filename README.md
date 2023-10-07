@@ -1,3 +1,2 @@
 # Soal Struktur Data
-## Jawaban dari soal-soal praktikum struktur data
-Silakan Contribute 
+Silakan Contribute. Bagi yang ingin tahu cara _compile_ file C++ bisa lihat `KOMPILASI.md`
