@@ -5,6 +5,11 @@ using namespace std;
 
 int main()
 {
+  /*Soal fungsinya harus ada semua di main.cpp atau engga
+   * tolong tanya ke asprak
+   * Info ini khusus buat yang aspraknya santai
+   * ~Shua24
+   * */
     List Li;
     address Ptr;
     infotype digits;
