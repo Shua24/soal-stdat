@@ -23,5 +23,6 @@ address allocate(infotype x);
 void insertFirst(List &L, address P);
 void insertLast(List &L, address P);
 void printInfo(List L);
+address searchInfo(List L, infotype x);
 #endif /*LIST_H_DEFINED*/
 
