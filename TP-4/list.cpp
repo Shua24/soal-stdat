@@ -1,12 +1,12 @@
 #include <iostream>
 #include "list.h"
 
-void createList_1302220072(List &L)
+void createList(List &L)
 {
     first(L) = NULL;
 }
 
-address allocate_1302220072(infotype x)
+address allocate(infotype x)
 {
     address p = new elmlist;
     info(p) = x;
@@ -14,7 +14,7 @@ address allocate_1302220072(infotype x)
     return p;
 }
 
-void insertFirst_1302220072(List &L, address P)
+void insertFirst(List &L, address P)
 {
     // Handle NULLs
     if(first(L) == NULL) {
@@ -25,7 +25,7 @@ void insertFirst_1302220072(List &L, address P)
     }
 }
 
-void insertLast_1302220072(List &L, address P)
+void insertLast(List &L, address P)
 {
     // NULL handling
     address Q;
@@ -42,7 +42,7 @@ void insertLast_1302220072(List &L, address P)
     next(P) = NULL;
 }
 
-void printInfo_130220072(List L)
+void printInfo(List L)
 {
     address p = first(L);
     cout << "Isi list: ";

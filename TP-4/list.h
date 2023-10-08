@@ -18,10 +18,10 @@ struct List
 {
     address first;
 };
-void createList_1302220072(List &L);
-address allocate_1302220072(infotype x);
-void insertFirst_1302220072(List &L, address P);
-void insertLast_1302220072(List &L, address P);
-void printInfo_130220072(List L);
+void createList(List &L);
+address allocate(infotype x);
+void insertFirst(List &L, address P);
+void insertLast(List &L, address P);
+void printInfo(List L);
 #endif /*LIST_H_DEFINED*/
 
