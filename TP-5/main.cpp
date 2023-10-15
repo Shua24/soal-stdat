@@ -3,6 +3,7 @@
 
 using namespace std;
 /*
+ * main.cpp ini untuk yang kemarin di-mod sisanya 1.
  * Seperti biasa, tanya asprsk
  * Kalau error, tanya asprak juga
  */
