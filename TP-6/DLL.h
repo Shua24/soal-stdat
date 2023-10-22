@@ -1,4 +1,4 @@
-#ifndef DLL_H_DEFINED /*DDEFINE_DLL_H*/
+#ifndef DLL_H_DEFINED /*DEFINE_DLL_H*/
 #define DLL_H_DEFINED
 #include <iostream>
 #define first(L) L.first    // bisa dipakai tapi tidak dipakai
