@@ -1,4 +1,10 @@
 #include "DLL.h"
+/*
+ *  Untuk semua fungsi dan prosedur kali ini tidak pakai syntax yang sudah
+ *  didefinisikan di DLL.h, tapi syntax menggunakan syntax asli C/C++
+ *  karena kadang syntax yang didefinisikan di DLL.h bisa menyebabkan
+ *  error.
+ */
 
 bool isEmpty(List L)
 {
