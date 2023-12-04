@@ -6,13 +6,14 @@
 using namespace std;
 
 typedef struct jadwalPenerbangan infotype;
-typedef struct elmJadwal *adr_jadwalP;
 
 struct jadwalPenerbangan
 {
     string kode, jenis, tanggal, waktu, asal, tujuan;
     int kapasitas;
 };
+
+typedef struct elmJadwal *adr_jadwalP;
 
 struct elmJadwal
 {
